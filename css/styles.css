@@ -1,0 +1,212 @@
+body
+{
+    text-align: center;
+}
+
+h1, h2, h3
+{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+}
+
+h1
+{
+    color: white;
+    font-size: 5rem;
+    line-height: 1.5;
+}
+
+.white-section
+{
+    background-color: white;
+}
+
+.colored-section 
+{
+    background-color: #ff4c68;
+}
+
+
+/*Navbar*/
+
+.navbar
+{
+    padding: 0 0 50px 0;
+}
+
+
+.navbar-tindog-logo
+{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 3rem;
+}
+
+.navbar-button-text
+{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 1.5rem;
+    margin: 0% 25px;
+}
+
+/*top section*/
+
+.container-fluid
+{
+    padding: 7% 15%;
+}
+
+#title .container-fluid
+{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.button-header
+{
+    font-family: "Ubuntu",sans-serif;
+    margin: 5% 3%;
+    padding: 2%
+}
+
+.iphone
+{
+    transform: rotate(20deg);  
+    position: absolute; /*removes element from HTML flow, other 
+                        elements pretend it doesn't exist*/
+    right: 30%;
+    z-index: 0;
+}
+
+/*features section*/
+
+#features-section
+{
+    z-index: 1;
+    position: relative; /*leaves "phantom" where it would be if it were positioned normally,
+                        then adds whatever css code from here.*/
+    padding: 5% 0;
+}
+
+.features-icons
+{
+    color: #ff4c68;
+    font-size: 100px;
+    margin: 5%;
+}
+
+.features-icons:hover
+{
+    color: #ff0e32;
+}
+
+.feature-description
+{
+    color: gray;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Testimonials*/
+
+#testimonials
+{
+    color: white;
+    background-color: #ef8172;
+}
+
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+#press
+{
+    background-color: #ef8172;
+
+}
+
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px;
+}
+
+#pricing
+{
+    padding: 100px;
+}
+
+.price-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-card
+{
+    padding: 3%;
+}
+
+.cta-div
+{
+    padding: 7% 7%;
+}
+
+.cta-message
+{
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.button-footer
+{
+    font-family: "Ubuntu",sans-serif;
+    margin: 1%;
+}
+
+#footer
+{
+    padding: 10%;
+}
+
+.footer-icon
+{
+    color: black;
+    margin: 8px;
+}
+
+#copyright
+{
+    color: grey;
+    font-family: 'Montserrat',sans-serif;
+}
+
+@media (max-width: 1028px)
+{
+
+    #title
+    {
+        font-size: 5rem;
+        text-align: center;
+        padding: 3% 2% 7%;
+    }
+
+    .iphone
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
